@@ -15,6 +15,7 @@
 		BF755DEA2085DDED007EB721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF755DE92085DDED007EB721 /* main.m */; };
 		BF755DF42085DDED007EB721 /* OpenGL_ES_OneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF755DF32085DDED007EB721 /* OpenGL_ES_OneTests.m */; };
 		BF755DFF2085DDED007EB721 /* OpenGL_ES_OneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF755DFE2085DDED007EB721 /* OpenGL_ES_OneUITests.m */; };
+		BF755E0D20872B6B007EB721 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = BF755E0C20872B6A007EB721 /* flag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BF755DFA2085DDED007EB721 /* OpenGL ES OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL ES OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF755DFE2085DDED007EB721 /* OpenGL_ES_OneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL_ES_OneUITests.m; sourceTree = "<group>"; };
 		BF755E002085DDED007EB721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF755E0C20872B6A007EB721 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		BF755DD92085DDEC007EB721 /* OpenGL ES One */ = {
 			isa = PBXGroup;
 			children = (
+				BF755E0C20872B6A007EB721 /* flag.png */,
 				BF755DDA2085DDEC007EB721 /* AppDelegate.h */,
 				BF755DDB2085DDEC007EB721 /* AppDelegate.m */,
 				BF755DDD2085DDEC007EB721 /* ViewController.h */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF755DE72085DDED007EB721 /* LaunchScreen.storyboard in Resources */,
+				BF755E0D20872B6B007EB721 /* flag.png in Resources */,
 				BF755DE42085DDED007EB721 /* Assets.xcassets in Resources */,
 				BF755DE22085DDEC007EB721 /* Main.storyboard in Resources */,
 			);
